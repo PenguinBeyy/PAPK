@@ -1,69 +1,58 @@
 🇺🇸 (English):
-# PAPK (Ported Android Package Kit)
 
-PAPK is an innovative app that allows running Android APK files on **Windows, Linux, and macOS** without traditional emulators.  
+## PAPK (Ported Android Package Kit)
+
+PAPK is an innovative app that allows running Android APK files on **Windows and Linux** without traditional emulators.  
 It uses the **AOSP Android Runtime**, so it runs the APK directly rather than emulating it.
 
-> ⚠️ Warning: Some APKs may not run because they use non-AOSP APIs.
+**⚠️ Warning:** Some APKs may not run because they use non-AOSP APIs.
 
-## Features
-
-- Cross-platform: Windows, Linux, macOS  
-- APK installation and analysis interface  
-- Lightweight and fast  
-- Modular backend, frontend, and Lua structure  
-- User APKs and runtime files are managed locally  
+### Features
+- Cross-platform: Windows, Linux
+- APK installation and analysis interface
+- Lightweight and fast
+- Modular backend, frontend, and Lua structure
+- User APKs and runtime files are managed locally
 - Log and error reporting support
 
-## Installation & Running
+### Installation & Running
 
-### Linux / macOS
-
+**Linux**
 ```bash
-# Go to the packaged folder
 cd Linux/PAPK-linux-x64
-
-# Check the files
 ls
-
-# Give execute permission
 chmod +x PAPK
-
-# Run the application
 ./PAPK
 ```
 
-🇹🇷(Türkçe):
-# PAPK (Ported Android Package Kit)
+🇹🇷 (Türkçe):
 
-PAPK, Android APK dosyalarını **Windows, Linux ve macOS** üzerinde, geleneksel emülatörlere ihtiyaç duymadan çalıştırmanızı sağlayan yenilikçi bir uygulamadır.  
-Bu uygulama **AOSP Android Runtime** kullanır; yani bir emülatör değil, doğrudan APK’yı çalıştırır.
+PAPK (Ported Android Package Kit)
 
-> ⚠️ Uyarı: Bazı APK’lar AOSP dışı özel API’ler kullandığı için çalışmayabilir.
+PAPK, Android APK dosyalarını Windows ve Linux üzerinde, geleneksel emülatörlere ihtiyaç duymadan çalıştırmanızı sağlayan yenilikçi bir uygulamadır.
+Bu uygulama AOSP Android Runtime kullanır; yani bir emülatör değil, doğrudan APK’yı çalıştırır.
 
-## Özellikler
+⚠️ Uyarı: Bazı APK’lar AOSP dışı özel API’ler kullandığı için çalışmayabilir.
 
-- Çapraz platform: Windows, Linux, macOS  
-- APK kurulum ve analiz arayüzü  
-- Hafif ve hızlı çalışma  
-- Backend, frontend ve Lua tabanlı modüler yapı  
-- Kullanıcı APK’ları ve runtime dosyaları yerel olarak yönetilir  
-- Günlük ve hata raporlama desteği
+Özellikler
 
-## Kurulum ve Çalıştırma
+Çapraz platform: Windows, Linux
 
-### Linux / macOS
+APK kurulum ve analiz arayüzü
 
-```bash
-# Paketlenen klasöre gidin
+Hafif ve hızlı çalışma
+
+Backend, frontend ve Lua tabanlı modüler yapı
+
+Kullanıcı APK’ları ve runtime dosyaları yerel olarak yönetilir
+
+Günlük ve hata raporlama desteği
+
+Kurulum ve Çalıştırma
+
+Linux
+
 cd Linux/PAPK-linux-x64
-
-# Dosyaları kontrol edin
 ls
-
-# Çalıştırılabilir izni verin
 chmod +x PAPK
-
-# Uygulamayı başlatın
 ./PAPK
-
