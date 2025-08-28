@@ -1,3 +1,4 @@
+🇺🇸:
 # PAPK (Ported Android Package Kit)
 
 PAPK is an innovative app that allows running Android APK files on **Windows, Linux, and macOS** without traditional emulators.  
