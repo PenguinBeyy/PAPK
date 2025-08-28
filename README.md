@@ -31,7 +31,7 @@ chmod +x PAPK
 
 # Run the application
 ./PAPK
-'''
+```
 
 🇹🇷:
 # PAPK (Ported Android Package Kit)
