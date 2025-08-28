@@ -1,4 +1,4 @@
-🇺🇸:
+🇺🇸 (English):
 # PAPK (Ported Android Package Kit)
 
 PAPK is an innovative app that allows running Android APK files on **Windows, Linux, and macOS** without traditional emulators.  
@@ -33,7 +33,7 @@ chmod +x PAPK
 ./PAPK
 ```
 
-🇹🇷:
+🇹🇷(Türkçe):
 # PAPK (Ported Android Package Kit)
 
 PAPK, Android APK dosyalarını **Windows, Linux ve macOS** üzerinde, geleneksel emülatörlere ihtiyaç duymadan çalıştırmanızı sağlayan yenilikçi bir uygulamadır.  
