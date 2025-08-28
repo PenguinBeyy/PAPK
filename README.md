@@ -20,8 +20,11 @@ PAPK paketlenmiş uygulamayı Linux veya macOS üzerinde çalıştırmak için:
 
 ```bash
 # Paketlenen klasöre girin
-cd dist/Linux/PAPK-linux-x64
+cd Linux/PAPK-linux-x64
 
+# Dosyayı Kontrol et PAPK diye bir dosya varmı diye
+ls
+ 
 # Çalıştırılabilir izni verin
 chmod +x PAPK
 
