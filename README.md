@@ -1,32 +1,32 @@
 # PAPK (Ported Android Package Kit)
 
-PAPK, Android APK dosyalarını **Windows, Linux ve macOS** üzerinde, geleneksel emülatörlere ihtiyaç duymadan çalıştırmanızı sağlayan yenilikçi bir uygulamadır. Bu uygulama **AOSP Android Runtime** kullanır; yani bir emülatör değil, doğrudan APK’yı çalıştırır.
+PAPK is an innovative app that allows running Android APK files on **Windows, Linux, and macOS** without traditional emulators.  
+It uses the **AOSP Android Runtime**, so it runs the APK directly rather than emulating it.
 
-> ⚠️ Uyarı: Bazı APK’lar AOSP dışı özel API’ler kullandığı için çalışmayabilir.
+> ⚠️ Warning: Some APKs may not run because they use non-AOSP APIs.
 
-## Özellikler
+## Features
 
-- Cross-platform: Windows, Linux, macOS
-- APK kurulum ve analiz arayüzü
-- Hafif ve hızlı çalışma
-- Backend, frontend ve Lua tabanlı modüler yapı
-- Kullanıcı APK’ları ve runtime dosyaları yerel olarak yönetilir
+- Cross-platform: Windows, Linux, macOS  
+- APK installation and analysis interface  
+- Lightweight and fast  
+- Modular backend, frontend, and Lua structure  
+- User APKs and runtime files are managed locally  
+- Log and error reporting support
 
-## Kurulum ve Çalıştırma
+## Installation & Running
 
 ### Linux / macOS
 
-PAPK paketlenmiş uygulamayı Linux veya macOS üzerinde çalıştırmak için:
-
 ```bash
-# Paketlenen klasöre girin
+# Go to the packaged folder
 cd Linux/PAPK-linux-x64
 
-# Dosyayı Kontrol et PAPK diye bir dosya varmı diye
+# Check the files
 ls
- 
-# Çalıştırılabilir izni verin
+
+# Give execute permission
 chmod +x PAPK
 
-# Uygulamayı başlatın
+# Run the application
 ./PAPK
